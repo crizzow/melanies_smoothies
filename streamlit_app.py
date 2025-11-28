@@ -62,6 +62,11 @@ if time_to_insert:
     st.success('Your Smoothie is ordered, ' + name_on_order + '!', icon="✅")
 
 
+st.dataframe(data = smoothiefroot_response.json(), use_container_width=True)
+
+
+
+
 
 
 
